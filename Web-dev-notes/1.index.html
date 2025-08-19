@@ -6,13 +6,11 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <!-- this is ext css -->
     <link rel="stylesheet" href="./script.css">
+    <!-- this is int css -->
     <style>
-        /* use for colouring now see the comment here its css commment not html i.e. this tag is used for 
-        using css attr */
-        h1{
-            color: aqua;
-        }
+       
     </style>
 </head>
 
@@ -25,11 +23,14 @@
         <!--for blue text link-->
         <a href="https://www.w3schools.com/html/default.asp">Html concepts</a>
         <!--Button-->
-        <br><button type="button" >Button
+        <!-- this is inline css where i used style-->
+         <!-- inline css doesnt follow cascading -->
+        <br><button type="button" style="color: cadetblue;">Button
     </header>
     <title>Lists</title>
     <!--UNordered list-->
-    <ul>
+    <div>
+        <ul>
         <li>tusker</li>
         <li>leo</li>
         <li>phoenix</li>
@@ -42,6 +43,8 @@
         <li>phoenix</li>
         <li>kong</li>
     </ol>
+    </div>
+    
 
     <!--Tables-->
     <table border>
@@ -67,5 +70,5 @@
 
 
 </body>
-
+<script src="Script.js"></script>
 </html>
