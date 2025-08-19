@@ -1,10 +1,33 @@
         /* decendant selector - any decendant can directly be used*/
+        /*
         div ul{
             color: chartreuse;
         }
+         */
+        
         /* child selector - only direct relationship works */
-        div>ol{
+        /*
+         div>ol{ 
             color: crimson;
         }
+        */
+        
+        
         /* class selector */
+        div{
+            leo{
+                color: yellow;
+
+            }
+            tusker{
+                color: green;
+            }
+            phoenix{
+                color: red;
+            }
+            kong{
+                color: blue;
+            }
+        }
+
         
