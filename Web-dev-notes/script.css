@@ -1,12 +1,3 @@
- /* use for colouring now see the comment here its css commment not html i.e. this tag is used for 
-        using css attr */
-        h1{
-            color: aqua;
-            
-        }
-        /* if the same thing is styled in ext css and int css then the cascading principle 
-        works whichever is defined at latest works */
-
         /* decendant selector - any decendant can directly be used*/
         div ul{
             color: chartreuse;
