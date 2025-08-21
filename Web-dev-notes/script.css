@@ -14,21 +14,18 @@
         
         
         /* class selector */
-        div {
-            leo{
-                color: yellow;
-
-            }
-            tusker{
-                color: green;
-            }
-            phoenix{
-                color: red;
-            }
-            kong{
-                color: blue;
-            }
+        
+        .leo{
+            color: yellow;
         }
-
+        .tusker{
+            color: green;
+                    }
+        .phoenix{
+            color: red;
+                }
+        .kong{
+         color: blue;
+       }
         
         /* reminder to visit class selectors */
