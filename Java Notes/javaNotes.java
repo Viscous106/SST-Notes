@@ -46,3 +46,11 @@ class HelloWorld{
         }
 } */
 
+
+/*
+types of non decimals datatypes
+byte for 8 bits
+short for 16 bits
+int 32 bits
+long 64 bits
+*/
