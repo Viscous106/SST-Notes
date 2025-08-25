@@ -54,3 +54,11 @@ short for 16 bits
 int 32 bits
 long 64 bits
 */
+public class javaNotes{
+        public static void main(String[] args){
+                long a =100000;
+                int b =400000;
+                long result =a*b;
+                System.out.print(result);
+        }
+}
