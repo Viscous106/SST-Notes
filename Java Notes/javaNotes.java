@@ -22,7 +22,7 @@ to comment multiline*/
 //another way
 
 */
-/*import java.util.*;
+/*import java.util.*;  //scanner or class
 class HelloWorld{
         public static void main (String[] args){
                System.out.println("Hello World");
@@ -64,3 +64,16 @@ public class javaNotes{
         }
 }
  */
+
+ 
+ import java.util.*;
+ 
+ class javaNotes {
+        public static void main(String[] args) {
+                Scanner sc = new Scanner(System.in);
+                System.out.println("Enter a number:");
+                int input1=sc.nextInt();
+                System.out.print("you have entered "+input1);
+        }
+        
+ }                                                                                                                                                                
