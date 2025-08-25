@@ -54,6 +54,7 @@ short for 16 bits
 int 32 bits
 long 64 bits
 */
+/*
 public class javaNotes{
         public static void main(String[] args){
                 long a =100000;
@@ -62,3 +63,4 @@ public class javaNotes{
                 System.out.print(result);
         }
 }
+ */
