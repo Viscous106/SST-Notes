@@ -125,18 +125,26 @@ class javaNotes {
                 System.out.println(a>=b);//false
                 System.out.println(a<=b);//true
 
-        
+        /////////function maths:
+                int a = 10;
+                int b = 20;
+                System.out.println(Math.max(a,b));//max of a and b
+                System.out.println(Math.min(a,b));//min of a and b
+                System.out.println(Math.sqrt(16));//square root
+                System.out.println(Math.abs(-4));//absolute value
+                System.out.println(Math.random());//random value between 0 and 1
+                System.out.println((int)(Math.random()*100));//random value between 0 and 100
 
 
         }
 }
 */
 
-/*
+/**/
 import java.util.*;
 public class javaNotes {
         public static void main(String[] args) {
                 //write code here
+                
         }
 }
-*/
