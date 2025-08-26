@@ -46,7 +46,8 @@ class javaNotes {
                 Scanner in = new Scanner(System.in);
                 System.out.println("Enter a text:");
                 //how to take string output
-                String input1=in.nextLine();
+                String input0=in.next();//it takes input till space
+                String input1=in.nextLine();//it takes input till end of line
                 System.out.print("you have entered "+input1);
                 System.out.println(input1.length());//length of string
                 System.out.println(input1.toLowerCase());//lowercase
@@ -125,6 +126,7 @@ class javaNotes {
                 System.out.println(a>=b);//false
                 System.out.println(a<=b);//true
 
+
         /////////function maths:
                 int a = 10;
                 int b = 20;
@@ -135,7 +137,121 @@ class javaNotes {
                 System.out.println(Math.random());//random value between 0 and 1
                 System.out.println((int)(Math.random()*100));//random value between 0 and 100
 
+        /////////if-else:
+                Scanner in = new Scanner(System.in);
+                int a = in.nextInt();
+                if(a>0){
+                        System.out.println("a is positive");
+                }
+                else{
+                        System.out.println("a is negative");
+                }
 
+
+        /////////switch-case:
+                Scanner in = new Scanner(System.in);
+                int a = in.nextInt();
+                switch(day){
+                        case 1:
+                                System.out.println("Monday");
+                                break;
+                        case 2:
+                                System.out.println("Tuesday");
+                                break;
+                        case 3:
+                                System.out.println("Wednesday");
+                                break;
+                        case 4:
+                                System.out.println("Thursday");
+                                break;
+                        case 5:
+                                System.out.println("Friday");
+                                break;
+                        case 6:
+                                System.out.println("Saturday");
+                                break;
+                        case 7:
+                                System.out.println("Sunday");
+                                break;
+                        default:
+                                System.out.println("Invalid day");
+                                break;
+                
+        //////////while loop:
+                Scanner in = new Scanner(System.in);
+                int n = in.nextInt();
+                int i = 1;
+                while(i<=n){
+                        System.out.println(i);
+                        i++;
+                }
+        
+        /////////for loop:
+                Scanner in = new Scanner(System.in);
+                int n = in.nextInt();
+                for(int i=1;i<=n;i++){//(initialization, condition, increment)
+                        System.out.println(i);
+                }
+        
+        /////////do-while loop:
+                Scanner in = new Scanner(System.in);
+                int n = in.nextInt();
+                int i = 1;
+                do{
+                        System.out.println(i);
+                        i++;
+                }while(i<=n);//if condition is false then also it will execute once
+        
+        /////////for-each loop:
+                int[] arr = {10, 20, 30, 40, 50};
+                for(int num:arr){//for each element in array
+                        System.out.println(num);
+                }
+
+        /////////break and continue:
+                Scanner in = new Scanner(System.in);
+                int n = in.nextInt();
+                for(int i=1;i<=n;i++){
+                        if(i==5){
+                                break;//breaks the loop when i=5
+                        }
+                        System.out.println(i);
+                }
+                for(int i=1;i<=n;i++){
+                        if(i==5){
+                                continue;//skips the iteration when i=5
+                        }
+                        System.out.println(i);
+                }
+        
+        ///////////try-catch:
+                Scanner in = new Scanner(System.in);
+                System.out.println("Enter a number:");
+                int a = in.nextInt();
+                try{
+                        System.out.println("The value of a is "+a);
+                        System.out.println("The value of 10/a is "+10/a);
+                }
+                catch(ArithmeticException e){
+                        System.out.println("Cannot divide by zero");
+                }
+                catch(Exception e){
+                        System.out.println("Some error occurred");
+                }
+                finally{
+                        System.out.println("This block is always executed");
+                }
+
+        ///////////Methods or functions:
+                //method to add two numbers
+                public static int add(int a, int b){
+                        return a+b;
+                }
+                public static void main(String[] args){
+                        int sum = add(10, 20);
+                        System.out.println("The sum is "+sum);
+        
+        ///////////
         }
 }
 */
@@ -144,7 +260,7 @@ class javaNotes {
 import java.util.*;
 public class javaNotes {
         public static void main(String[] args) {
-                //write code here
+                //write code here:
                 
         }
 }
