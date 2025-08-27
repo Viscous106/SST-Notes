@@ -24,6 +24,7 @@
     </nav>
     <span>
       <!-- Used for inline elements -->
+
       This is a span element.
       <strong>This text is bold.</strong>
       <em>This text is italicized.</em>
@@ -56,12 +57,27 @@
       <label for="email" aria-placeholder="Enter your email:">Email:</label>
       <input type="email" id="email" name="email" />
       <br />
-      <input type="submit" value="Submit" />
+      <label for="password" aria-placeholder="Enter your password:">Password:</label>
+      <input type="password" id="password" name="password" />
+      <br />
       <label for="message" aria-placeholder="Enter your message:">Message:</label>
       <textarea id="message" name="message"></textarea>
       <br />
+      <input type="submit" value="Submit" />
       <button type="button" aria-label="Click Me!">Click Me!</button>
+      <select name="options" id="options">
+        <option value="option1">Option 1</option>
+        <option value="option2">Option 2</option>
+        <option value="option3">Option 3</option>
+      </select>
+      <br />
+      <input type="checkbox" id="subscribe" name="subscribe" />
+      <label for="subscribe">Subscribe to newsletter</label>
+      <br />
+      <label for="age">Age:</label>
+      <input type="number" id="age" name="age" min="0" max="120" />
     </form>
+
     <main>
       <!-- Used for the main content of the page -->
       <article>
