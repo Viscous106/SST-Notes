@@ -1,3 +1,9 @@
+/* Universal Selector */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 /* Button Styles */
 button {
   background-color: cadetblue;
@@ -10,12 +16,7 @@ button {
 button:hover {
   background-color: darkcyan;
 }
-/* Universal Selector */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+
 /* Id Selector */
 #uniqueElement {
   color: crimson;
@@ -64,11 +65,32 @@ h1{
     margin-bottom: 20px;
 }
 h1, h2, h3 {
-  font-family: 'Arial', sans-serif;
+  font-family: 'Arial', sans-serif;/*arial has priority over sans-serif because it is written before if browser dont have arial then san will be used*/
   margin-bottom: 10px;
 }
 p {
   font-size: 16px;
   line-height: 1.5;
   color: #333;
+}
+
+/*Box Model Properties*/
+.container {
+  width: 80%;
+  margin: 0 auto; /* Center the container */
+  padding: 20px 10px 15px 25px; /* Top, Right, Bottom, Left */
+  border: 1px dotted #ccc;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+  border-radius: 40px;
+}
+body{
+    background-color: rgb(2, 166, 172);
+}
+header, nav, main, footer {
+  margin-bottom: 20px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #fff;
 }
