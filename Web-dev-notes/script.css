@@ -1,0 +1,74 @@
+/* Button Styles */
+button {
+  background-color: cadetblue;
+  color: rgb(255, 255, 255);
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: darkcyan;
+}
+/* Universal Selector */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Id Selector */
+#uniqueElement {
+  color: crimson;
+}
+/* Class Selector */
+.highlight {
+  background-color: yellow;
+}
+/* Element Selector */
+p {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+}
+/* Grouping Selector */
+h1, h2, h3 {
+  font-family: 'Arial', sans-serif;
+  margin-bottom: 10px;
+}
+/* Descendant Selector */
+nav a {
+  text-decoration: none;
+  color: navy;
+  margin-right: 15px;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+/* Child Selector */
+ul > li {
+  list-style-type: square;
+  margin-left: 20px;
+}
+/* Attribute Selector */
+input[type="text"] {
+  border: 1px solid #ccc;
+  padding: 8px;
+  border-radius: 4px;
+}
+/* Text Properties */
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: darkslateblue;
+    margin-bottom: 20px;
+}
+h1, h2, h3 {
+  font-family: 'Arial', sans-serif;
+  margin-bottom: 10px;
+}
+p {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+}
