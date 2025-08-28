@@ -4,13 +4,52 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <!-- order of pref for css is inline > internal > external. For internal and external whichever  is writen at the bottom is given preference.. -->
+    <!-- this is for external CSS -->
+    <link rel="stylesheet" href="./script.css" />
+    <style>
+      /* Internal CSS */
+      body {
+        font-family: Arial, sans-serif;
+        margin: 20px;
+        line-height: 1.6;
+      }
+      header,
+      nav,
+      main,
+      aside,
+      footer {
+        border: 1px solid #ccc;
+        padding: 10px;
+        margin-bottom: 10px;
+        background-color: #f9f9f9;
+      }
+      h1, h2 {
+        color: #333;
+      }
+      ul {
+        list-style-type: none;
+        padding: 0;
+      }
+      ul li {
+        margin: 5px 0;
+      }
+      a {
+        text-decoration: none;
+        color: #007BFF;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
+    </style>
   </head>
 
   <body>
     <!-- Semantic HTML tags -->
     <header>
       <!-- Used for to type things in the top or title of the page -->
-      <h1>This is header</h1>
+      <!-- this is an inline style css -->
+      <h1 style="background-color: aqua;">This is header</h1>
     </header>
     <nav>
       <!-- Used for to type things in the navigation bar -->
