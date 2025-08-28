@@ -86,6 +86,7 @@ p {
 }
 body{
     background-color: rgb(2, 166, 172);
+    
 }
 header, nav, main, footer {
   margin-bottom: 20px;
@@ -93,4 +94,7 @@ header, nav, main, footer {
   border: 1px solid #ddd;
   border-radius: 8px;
   background-color: #fff;
+}
+nav {
+  background-color: #e3f2fd;
 }
