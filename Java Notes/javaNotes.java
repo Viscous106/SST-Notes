@@ -250,9 +250,80 @@ class javaNotes {
                 public static void main(String[] args){
                         int sum = add(10, 20);
                         System.out.println("The sum is "+sum);
+                }
         
-        ///////////
+        ///////////OOPS:
+
+                class Person{
+                        //attributes//plane declaration of variable
+                        String name;
+                        int age;
+
+                        //constructor
+                        Person(String name, int age){
+                                this.name = name;
+                                this.age = age;
+                        }
+
+                        //function to display person details:
+                        void display(){
+                                System.out.println("Name: "+name);
+                                System.out.println("Age: "+age);
+                        }
+                }
+                Person p1 = new Person("John", 25);//object creation
+                p1.display();//function call
+
+        ///////////function overloading:
+        /// if it is int then it will call int add function
+        /// if it is double then it will call double add function
+                class MathOperation{
+                        int add(int a, int b){
+                                return a+b;
+                        }
+                        double add(double a, double b){
+                                return a+b;
+                        }
+                public static void main(String[] args) {
+
+
+        ///////////Types of inheritance:
+                //single inheritance: class B extends A
+                        class Animal{
+                                void info(){
+                                System.out.println("Animal makes sound");
+                                String color = "brown";
+                                System.out.println("Color: " + color);
+                        }
+                }
+                        class Dog extends Animal{
+                                void info(){
+                                System.out.println("Dog barks");
+                                super.info();//calls the parent class function
+                                String breed = "Labrador";
+                                System.out.println("Breed: " + breed);
+                                String color = "black";
+                                System.out.println("Color: " + color);//prints the color of dog class
+                                System.out.println("Color: " + super.color);//prints the color of animal class
+                        }
+                }
+                Dog d = new Dog();
+                d.info();
+                Animal a = new Animal();
+                a.info();
+
+                //multilevel inheritance: class C extends B, class B extends A
+                
+                //hierarchical inheritance: class B extends A, class C extends A
+
+
+                //multiple inheritance is not supported in java
+                //but it can be achieved using interfaces
         }
 }
 */
 
+import java.util.*;
+public class javaNotes {
+        public static void main(String[] args) {
+}
