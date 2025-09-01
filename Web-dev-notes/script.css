@@ -98,3 +98,43 @@ header, nav, main, footer {
 nav {
   background-color: #e3f2fd;
 }
+#box1, #box2 {
+  border: 2px solid #000000;
+  padding: 10px;
+  margin: 10px 0;
+  background-color: #e8f5e9;
+  /* display: inline-block; //Display as inline-block to allow width and height */
+}
+#box1 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  background-color: #f5b9b9;
+  position: relative;
+  top: 5px; /* Moves the box down */
+  left: 200px; /* Moves the box to the right */
+  width: 300px; /* Sets a fixed width */
+  height: 150px; /* Sets a fixed height */
+  border-radius: 10px; /* Rounds the corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds a shadow effect */
+  transition: transform 0.3s; /* Smooth transition for hover effect */
+}
+#box2 {
+  font-style: italic;
+  color: #aa3737;
+}
+.footer-content {
+  text-align: center;
+  font-size: 2em;/*em user em means 2 times the size of the parent element*/
+  font-size: 3rem;/*rem user rem means 3 times the size of the root element*/
+  color: #555;
+  margin-top: 0.1%;/*percentage user*/
+  background-color: #85e4cf;
+}
+.footer-content a {
+  color: #007bff;
+  text-decoration: none;
+}s
+.footer-content a:hover {
+  text-decoration: underline;
+}

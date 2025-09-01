@@ -284,7 +284,6 @@ class javaNotes {
                         double add(double a, double b){
                                 return a+b;
                         }
-                public static void main(String[] args) {
 
 
         ///////////Types of inheritance:
