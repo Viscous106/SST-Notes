@@ -138,3 +138,49 @@ nav {
 .footer-content a:hover {
   text-decoration: underline;
 }
+/* Positioning Properties
+static for default
+relative for moving from original position
+absolute for moving from nearest positioned ancestor
+fixed for moving from viewport or browser window
+sticky for sticking in a specific position while scrolling
+*/
+/*z-index is used to set the priority order..*/
+
+/*Flexbox: */
+#container{
+  display: flex;
+  flex-direction: row; /* Align items in a row (horizontal) */
+  justify-content: space-around; /* Distribute space around items */
+  align-items: center; /* Center items vertically */
+  gap: 20px; /* Space between items */
+  border: #333 solid 5px;
+  background-color: #aaf0ea;
+}
+#nestedBox1 {
+  background-color: lightcoral;
+  padding: 20px;
+  border-radius: 10px;
+  flex: 1; /* Each nested box takes equal space */
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+#nestedBox2 {
+  background-color: lightseagreen;
+  padding: 20px;
+  border-radius: 10px;
+  flex: 1; /* Each nested box takes equal space */
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+#nestedBox3 {
+  background-color: lightskyblue;
+  padding: 20px;
+  border-radius: 10px;
+  flex: 1; /* Each nested box takes equal space */
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
