@@ -319,15 +319,22 @@ class javaNotes {
 
                 //multiple inheritance is not supported in java
                 //but it can be achieved using interfaces
-        }
-}
-*/
+                
 
-
-/*
-import java.util.*;
-public class javaNotes {
-        public static void main(String[] args) {
+            //////Fizz-Buzz:
+                Scanner sc=new Scanner(System.in);
+                int a= sc.nextInt();
+                if (a%3==0){
+                    if(a%5==0){
+                        System.out.println("Fizz-Buzz");
+                    }
+                    else{
+                        System.out.print("Fizz");
+                    }
+                }
+                else if(a%5==0){
+                    System.out.print("Buzz");
+                }
         }
 }
 */
