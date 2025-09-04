@@ -237,3 +237,63 @@ nav .nav-links .cta-button:hover {
   background-color: #91e0cd;
   color: white;
 }
+
+/*Media Queries for Responsiveness */
+@media (max-width: 768px) {
+  nav {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  nav .nav-links {
+    flex-direction: column;
+    width: 100%;
+  }
+  nav .nav-links a {
+    margin: 5px 0;
+    width: 100%;
+    text-align: center; /* Center text for better appearance */
+  }
+  nav .nav-links .cta-button {
+    width: 100%;
+    text-align: center; /* Center text for better appearance */
+  }
+}
+
+/*Transitions*/
+#name{
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+#name:hover {
+  background-color: #45a049;
+  transform: scale(1.05); /* Slightly enlarge the element */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+}
+/*Animations*/  
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes identifier {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(-20px); }
+  100% { transform: translateY(0); }  
+}
+#animatedBox {
+  width: 100px;
+  height: 100px;
+  background-color: coral;
+  animation: fadeIn 2s ease-in-out;
+  margin: 20px auto;
+  border-radius: 10px;
+  animation-iteration-count: infinite;
+}
