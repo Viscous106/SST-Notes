@@ -190,8 +190,9 @@ nav {
 /* Brand/Logo Styling */
 nav .brand a {
   font-size: 1.5em;
-  font-weight: bold;
+  font-weight: bold,initial;
   color: #333;
+  background-color: #e28090;
   text-decoration: none;
 }
 
@@ -212,20 +213,20 @@ nav .nav-links a {
 }
 
 /* Hover effect for links */
-nav .nav-links a:hover {
-  background-color: #f0f0f0;
-  color: #333;
+nav .nav-links a.active:hover {
+  background-color: #91e0cd;
+  color: white;
 }
 
 /* Active link style */
 nav .nav-links a.active {
-  background-color: #007bff;
+  background-color: #000000;
   color: white;
 }
 
 /* Call-to-action button style */
 nav .nav-links .cta-button {
-  background-color: #007bff;
+  background-color: #000000;
   color: white;
   padding: 8px 15px;
   border-radius: 5px;
@@ -233,6 +234,6 @@ nav .nav-links .cta-button {
 }
 
 nav .nav-links .cta-button:hover {
-  background-color: #0056b3;
+  background-color: #91e0cd;
   color: white;
 }
